@@ -1,0 +1,22 @@
+[mathjax]
+
+This is a simple tool to allow the user to quikly copy a string of symbols.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/symbols">Live page</a>
+<a href="https://github.com/aidansean/symbols">GitHub repository</a>
+
+<h3>Overview</h3>
+
+This is a mixture of Javascript and the flash based ZeroClipboard.  The user clicks on the symbols they want and copy the output with a single click.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: The project required making ZeroClipboard work.</dt>
+
+<dd><em>Solution</em>: Making ZeroClipboard work for single clikcks is not trivial for several DOM elements, so it now only works for a single DOM element. (Resolved)</dd>
+<dt><em>Challenge</em>: The list of symbols needs to be updated simply and easily.</dt>
+
+<dd><em>Solution</em>: Symbols are arranged in groups with special functions to manage them, so symbols can be added in a single line. (Resolved)</dd>
+</dl>

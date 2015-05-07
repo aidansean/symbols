@@ -1,0 +1,63 @@
+table#table_copy_box{
+  width : 650px ;
+  margin : auto ;
+}
+td#td_copy_box, td#td_wide_copy_box, td#td_copy_button, input#input_wide_copy_box{
+  border : 2px solid black ;
+  text-align : center ;
+  width : 100px ;
+  height : 100px ;
+  margin : auto ;
+  margin-top : 10px ;
+  vertical-align : middle ;
+  font-size : 50pt ;
+}
+td#td_copy_button{
+  border : 0px solid red ;
+}
+td#td_wide_copy_box, input#input_wide_copy_box{
+  width : 400px ;
+}
+input#input_wide_copy_box{
+  border : 0px solid red ;
+}
+table#table_symbols{
+  width : 640px ;
+  margin : auto ;
+}
+td.td_symbol{
+  width : 55px ;
+  height : 55px ;
+  font-size : 24pt ;
+  border : 2px solid black ;
+  text-align : center ;
+  vertical-align : middle ;
+  background-color : #ddddff ;
+}
+td.td_symbol:hover{ border : 2px dashed black ; }
+td.td_symbol, td#td_copy_box,  td#td_copy_button, input#input_wide_copy_box{
+  font-family : times, serif ;
+}
+th.th_symbols{
+  text-align : center ;
+  font-size : 20pt ;
+  color : #ffffff ;
+  background-color : #000066 ;
+  height : 40px ;
+  font-weight : normal ;
+}
+input#copy{
+  width : 600px ;
+  height : 50px ;
+  font-size : 20pt ;
+  display : block ;
+  margin : auto ;
+}
+button.large_button{
+  border : 2px solid black ;
+  background-color : #ffffdd ;
+  width : 100px ;
+  height : 50px ;
+  font-size : 20pt ;
+  margin : 5px ;
+}
