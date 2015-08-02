@@ -1,6 +1,6 @@
 [mathjax]
 
-This is a simple tool to allow the user to quikly copy a string of symbols.
+This is a simple tool to allow the user to quickly copy a string of symbols.
 
 <h3>Links</h3>
 

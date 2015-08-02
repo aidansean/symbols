@@ -1,7 +1,8 @@
 <?php
-$title = 'Physics | Useful symbols' ;
+$title = 'Symbols browser' ;
 $stylesheets = array('symbols.css') ;
 $js_scripts = array('ZeroClipboard.js', 'symbols.js') ;
+include_once('project.php') ;
 include_once($_SERVER['DOCUMENT_ROOT'] . '/_core/preamble.php') ;
 ?>
   <div class="right">
